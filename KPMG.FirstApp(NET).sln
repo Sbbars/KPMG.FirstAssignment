@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KPMG.NET", "KPMG.NET.csproj", "{0BE0C8EF-560C-4450-B182-E67928B520D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPMG.NET_Framework", "..\KPMG.NET_Framework\KPMG.NET_Framework.csproj", "{760CF0BB-609A-4DC9-B190-B957C46EF154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppPassingArgs", "..\ConsoleAppPassingArgs\ConsoleAppPassingArgs.csproj", "{08727A4E-23C3-456E-8AEB-B63F7DEA5ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPMG.Datatypes", "..\KPMG.Datatypes\KPMG.Datatypes.csproj", "{89103B7C-85CD-4779-B7AF-ED416067E113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPMG.Arithmetic", "..\KPMG.Arithmetic\KPMG.Arithmetic.csproj", "{4169CFC9-E4F5-4F5A-9D11-E14641A3F861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPMG.logicalOperator", "..\KPMG.logicalOperator\KPMG.logicalOperator.csproj", "{B498EC93-8FA6-415A-A365-6DAF71A86662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPMG.Bool", "..\KPMG.Bool\KPMG.Bool.csproj", "{91152A37-7AFD-4C90-AFBE-CF5685DA9886}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE0C8EF-560C-4450-B182-E67928B520D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE0C8EF-560C-4450-B182-E67928B520D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE0C8EF-560C-4450-B182-E67928B520D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE0C8EF-560C-4450-B182-E67928B520D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760CF0BB-609A-4DC9-B190-B957C46EF154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760CF0BB-609A-4DC9-B190-B957C46EF154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760CF0BB-609A-4DC9-B190-B957C46EF154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760CF0BB-609A-4DC9-B190-B957C46EF154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08727A4E-23C3-456E-8AEB-B63F7DEA5ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08727A4E-23C3-456E-8AEB-B63F7DEA5ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08727A4E-23C3-456E-8AEB-B63F7DEA5ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08727A4E-23C3-456E-8AEB-B63F7DEA5ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89103B7C-85CD-4779-B7AF-ED416067E113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89103B7C-85CD-4779-B7AF-ED416067E113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89103B7C-85CD-4779-B7AF-ED416067E113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89103B7C-85CD-4779-B7AF-ED416067E113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4169CFC9-E4F5-4F5A-9D11-E14641A3F861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4169CFC9-E4F5-4F5A-9D11-E14641A3F861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4169CFC9-E4F5-4F5A-9D11-E14641A3F861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4169CFC9-E4F5-4F5A-9D11-E14641A3F861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B498EC93-8FA6-415A-A365-6DAF71A86662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B498EC93-8FA6-415A-A365-6DAF71A86662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B498EC93-8FA6-415A-A365-6DAF71A86662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B498EC93-8FA6-415A-A365-6DAF71A86662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91152A37-7AFD-4C90-AFBE-CF5685DA9886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91152A37-7AFD-4C90-AFBE-CF5685DA9886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91152A37-7AFD-4C90-AFBE-CF5685DA9886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91152A37-7AFD-4C90-AFBE-CF5685DA9886}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DED2C9F-8701-4EC0-B992-90CD58073CD3}
+	EndGlobalSection
+EndGlobal
